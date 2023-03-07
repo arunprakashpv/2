@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="img/ui/education.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Student Login | E-Authorize</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+
+
+<body>
+
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="img/ui/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="#" href="index.html">Home</a></li>
+				<li><a href="stud.html">Students</a></li>
+				<li><a href="staff.html">Staffs</a></li>
+				<li><a href="authority.html">Authority</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<!--<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div> -->
+			<a class="get-started" href="studlogin.html">Student Login</a>
+			<img src="img/ui/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Student Login</p>
+				<h5>The System is developed in the motive for the welfare of the students!</h5>
+        <!--
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/watch?v=KFyrgDO1WXk" target="_blank">Latest News and Events</a></span>
+				</div> 
+        -->
+
+        <div class="padding-top60 contact-form">
+          <button class="btn cta-button"onclick="window.location = 'studlogin.html';"> Login</button>
+        </div>
+			</div>
+			<div class="svg-image">
+				<img src="img/tmm.png" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="img/ui/close.png" alt=""></div>
+			<div class="user">
+				<img src="img/ui/logo.png" alt="Username">
+				<p>E-Request Authorization</p>
+			</div>
+			<ul>
+				<li><a class="#" href="index.html">Home</a></li>
+				<li><a href="stud.html">Students</a></li>
+				<li><a href="staff.html">Staffs</a></li>
+				<li><a href="authority.html">Authority</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Organization's Other Applications</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="https://grd.org/"><img src="img/ui/grdorg.png">GRD</a></div>
+		<div class="det"><a href="https://www.grd.org/grdcs/"><img src="img/ui/collg.png">GRDCS</a></div>
+		<div class="det"><a href="http://edumanage.grd.org:8080/grdsedu/commonjsp/Login.jsp"><img src="img/ui/edumanage.png">EDU MANAGE</a></div>
+		<div class="det"><a href="http://results.grd.org:8084/grdcs/result/index.php"><img src="img/ui/result.png">Exam Results</a></div>
+		</div></center>
+        <!--
+		<div class="cbox">
+		<div class="det"><a href="subjects/computer_courses.html"><img src="images/courses/computer.png">Computer Courses</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#data"><img src="images/courses/data.png">Data Structures</a></div>
+		<div class="det"><a href="subjects/computer_courses.html#algo"><img src="images/courses/algo.png">Algorithm</a></div>
+		<div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src="images/courses/projects.png">Projects</a></div>
+		</div>  -->
+	</div>
+
+	
+
+
+
+
+<!-- Sliding Information -->
+<marquee style="background: linear-gradient(to right, #71b7e6, #9b59b6); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="10"><div class="marqu">“This application is begin developed by Arun Prakash P V and will be deployed soon in the organization for the use of staffs and students to make hassle free administration”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="img/ui/logo.png" style="width:50px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="img/ui/fb.png"></a>
+					<a href="#"><img src="img/ui/insta.png"></a>
+					<a href="#"><img src="img/ui/tt.png"></a>
+					<a href="#"><img src="img/ui/ytube.png"></a>
+					<a href="#"><img src="img/ui\linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2023 Designed and Developed By Arun Prakash P V, For UG Project. All Rights Reserved.</p>
+				<br><p><img src="img/ui/location.png"> Dr G R Damodaran College of Science, Coimbatore, Tamil Nadu</p><br>
+				<p><img src="img/ui/phone.png"> +91-1234-567-890<br><img src="img/ui/mail.png">&nbsp; 20bscit010@grd.edu.in</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
